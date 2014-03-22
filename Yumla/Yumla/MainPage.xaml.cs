@@ -22,6 +22,21 @@ namespace Yumla
             //BuildLocalizedApplicationBar();
         }
 
+        private void Write_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/WritePage.xaml", UriKind.Relative));
+        }
+
+        private void Load_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void View_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{

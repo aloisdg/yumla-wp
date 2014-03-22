@@ -39,9 +39,9 @@
                         <Setter Property="Background" Value="#FF5BC236" />
                     </Style>
                 </StackPanel.Resources>
-                <Button Content="Draw" />
-                <Button Content="Load" />
-                <Button Content="View" />
+                <Button Content="Write" Click="Write_Click" />
+                <Button Content="Load" Click="Load_Click" />
+                <Button Content="View" Click="View_Click" />
                 <Rectangle Height="72" />
             </StackPanel>
         </Grid>
